@@ -1,0 +1,38 @@
+{
+  "name": "raspiio",
+  "homepage": "https://github.com/sysrun/node-raspiio",
+  "version": "0.0.1",
+  "main": "main.js",
+  "description": "Native i2c for Raspberry Pi",
+  "keywords": [
+    "raspberry pi",
+    "i2c",
+    "DS1340"
+  ],
+  "author": {
+    "name": "Frederik Granna",
+    "email": "i2cdev@granna.de",
+    "url": "http://www.sysrun.de"
+  },
+  "bugs": {
+    "url": "https://github.com/sysrun/node-raspiio/issues"
+  },
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sysrun/node-raspiio.git"
+  },
+  "dependencies": {
+    "i2c": "https://github.com/sysrun/node-i2c/tarball/master",
+    "async": "0.2.6",
+    "step": "0.0.5",
+    "underscore": "1.4.4",
+    "cli-color": "0.2.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "readmeFilename": "README.md"
+}
+
