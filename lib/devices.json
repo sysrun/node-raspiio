@@ -1,0 +1,7 @@
+{
+  "DS1340": {
+    "type": "i2c",
+    "module": "i2c_DS1340",
+    "options": {}
+  }
+}
